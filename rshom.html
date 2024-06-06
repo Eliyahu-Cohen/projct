@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <button onclick="openEmailModal()">שלח דוא"ל</button>
+
+<div id="emailModal" class="modal">
+
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <table>
+    <form id="emailForm">
+      <li><label for="email">כתובת דוא"ל:</label>
+      <input type="email" id="email" name="email" required>
+</li>
+<li>
+      <label for="username">שם משתמש:</label>
+      <input type="text" id="username" name="username" required>
+</li>
+<li>
+      <label for="password">סיסמה:</label>
+      <input type="password" id="password" name="password" required>
+</li>
+      <button type="submit">שלח</button>
+    </form>
+</table>
+  </div>
+</div>
+<script src="./js/rishom.js"></script>
+</body>
+</html>
